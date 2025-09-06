@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . OrbisOS --platform=win32 --arch=x64 --overwrite"
+    "build": "electron-packager . OrbisOS --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "dependencies": {
     "express": "^4.18.2",
