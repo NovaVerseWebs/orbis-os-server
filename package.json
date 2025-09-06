@@ -1,0 +1,12 @@
+{
+  "name": "orbis-os",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^38.0.0",
+    "express": "^5.1.0"
+  }
+}
